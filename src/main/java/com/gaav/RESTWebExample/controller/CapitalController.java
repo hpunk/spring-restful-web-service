@@ -1,7 +1,7 @@
 package com.gaav.RESTWebExample.controller;
 
-import com.gaav.RESTWebExample.model.CountryResponse;
-import com.gaav.RESTWebExample.model.restcountries.CountryData;
+import com.gaav.RESTWebExample.domain.CountryResponse;
+import com.gaav.RESTWebExample.domain.restcountries.CountryData;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.springframework.web.bind.annotation.GetMapping;

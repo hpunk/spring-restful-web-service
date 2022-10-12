@@ -1,4 +1,4 @@
-package com.gaav.RESTWebExample.model.restcountries;
+package com.gaav.RESTWebExample.domain.restcountries;
 
 import lombok.Data;
 
