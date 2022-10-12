@@ -25,6 +25,7 @@ public class RandomController {
 
     @GetMapping("/random/number")
     public RandomNumberResponse getRandomNumber(@RequestParam(value="max") Integer maximum) {
+        //this is context, and a way of getting beans, but not practical at all, since all services get instantiated every time the following line is executed
         ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(
                 "com.gaav.RESTWebExample.service");
         RandomNumberGeneratorService service = context.getBean(RandomNumberGeneratorService.class);
